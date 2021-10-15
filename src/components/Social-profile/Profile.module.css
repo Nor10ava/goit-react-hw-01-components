@@ -1,0 +1,83 @@
+.profile {
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 60px;
+  background-color: #6495a1;
+}
+
+.description {
+  text-align: center;
+  padding-top: 20px;
+  background-color: #e7e7ee;
+  border-top: 1px solid #c1c8c7;
+  border-right: 1px solid #c1c8c7;
+  border-left: 1px solid #c1c8c7;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.avatar {
+  width: 240px;
+  height: 100%;
+  border-radius: 45%;
+  background-color: #ffffff;
+}
+
+.name {
+  margin: 0px;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #252b31;
+}
+
+.tag {
+  margin: 0px;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #5e6668;
+}
+
+.location {
+  padding-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  background-color: #f6fafb;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #c1c8c7;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 120px;
+}
+
+.stats > li:not(:last-child) {
+  border-right: 1px solid #c1c8c7;
+}
+
+.label {
+  font-size: 16px;
+  color: #5e6668;
+}
+
+.quantity {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #252b31;
+}
